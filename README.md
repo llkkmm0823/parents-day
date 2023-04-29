@@ -14,3 +14,4 @@ I had to create it in a short period of time, and it was also my first time crea
 so I used an open-source template and added the necessary functions with values.
 
 Open-source template: https://codepen.io/supah/pen/xxJMbbg
+Translation help: CHAT GPT _ https://chat.openai.com/
