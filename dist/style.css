@@ -1,7 +1,7 @@
 body {
   overflow: hidden;
   font-family: "Gaegu";
-  background: linear-gradient(135deg, black, #220033);
+  background: linear-gradient(135deg, rgb(201, 235, 175), #e0a5cd);
 }
 
 .carousel {
@@ -79,7 +79,7 @@ body {
   top: 10px;
   left: 20px;
   transition: opacity 0.8s cubic-bezier(0, 0.02, 0, 1);
-  font-size: clamp(20px, 10vw, 80px);
+  font-size: 85%;
 }
 .carousel-item img {
   width: 100%;
@@ -106,7 +106,7 @@ body {
   left: 150px;
   width: 20px;
   height: 100%;
-  border: 2px solid #fff;
+  border: 2px solid black;
   border-top: none;
   border-bottom: none;
   opacity: 0.15;
@@ -115,17 +115,18 @@ body {
   position: absolute;
   bottom: 0;
   left: 30px;
-  color: #fff;
+  color: black;
   transform-origin: 0% 10%;
   transform: rotate(-90deg);
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
   line-height: 2.0;
   opacity: 0.4;
 }
-.layout .letterbt{
+.letterbt{
   position: relative;
   bottom: 0;
-  left: 1%;
+  float: right;
   color: #fff;
   transform-origin: 10% 0%;
   font-size: 30px;
@@ -197,40 +198,6 @@ body {
 .cursor2 {
   --size: 2px;
   transition-duration: 0.7s;
-}
-
-button {
-  margin: 20px;
-}
-.w-btn {
-  position: relative;
-  border: none;
-  display: inline-block;
-  padding: 15px 30px;
-  border-radius: 15px;
-  font-family: "Gaegu";
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-  text-decoration: none;
-  font-weight: 600;
-  transition: 0.25s;
-}
-.w-btn-skin {
-  background-color: #f8e6e0;
-  color: #6e6e6e;
-}
-.w-btn-skin-outline {
-  border: 3px solid #f8e6e0;
-  color: #6e6e6e;
-}
-.w-btn-outline {
-  position: relative;
-  padding: 15px 30px;
-  border-radius: 15px;
-  font-family: "paybooc-Light", sans-serif;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-  text-decoration: none;
-  font-weight: 600;
-  transition: 0.25s;
 }
 
 

@@ -94,8 +94,6 @@ document.addEventListener('touchmove', handleMouseMove)
 document.addEventListener('touchend', handleMouseUp)
 
 
-
-
 // 벚꽃날리기
 (function ($) {
   // requestAnimationFrame Polyfill
