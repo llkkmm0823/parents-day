@@ -94,6 +94,11 @@ document.addEventListener('touchmove', handleMouseMove)
 document.addEventListener('touchend', handleMouseUp)
 
 
+//addEventListener로 한번 코딩을 하면 onClick과는 충돌 가능성이 있어 최적화된 방법은 아님.
+// 즉, onClick으로 이벤트를 처리하려면 모든 이벤트는 onClick으로 처리
+// 하지만 onClick은 이벤트가 많아지면 모든 코드를 관리하기 어렵기때문에 보통 addEventListener로 관리한다고 함
+
+
 // 벚꽃날리기
 (function ($) {
   // requestAnimationFrame Polyfill
